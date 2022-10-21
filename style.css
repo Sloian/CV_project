@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+
+body{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  background: #E5E5E5;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 0;
+  font-family: Montserrat, sans-serif;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Sidebar Code ///////////////*/
+.sidebar{
+  background-color: #1E2939;
+  color: #FFFFFF;
+}
+
+.container{
+  margin: 40px 0 40px 40px;
+}
+
+.photo{
+  margin-top: 40px;
+  width: 370px
+}
+.contacts-wrapper{
+  display: flex;
+  align-items: center;
+}
+.container-contacts{
+  margin-top: 50px;
+}
+.contacts-symbol{
+  margin-right: 15px;
+  font-weight: 700;
+}
+.skills-list{
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+  padding: 0;
+}
+.skills-list li::before {
+  width: 6px;
+  content: "\2022";
+  color: #FB6D3A;
+  display: inline-block;
+  width: 20px;
+}
+
+.contacts-item{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+/* Sidebar Code ///////////////*/
+
+.right-container{
+  color: #595959;
+  font-size: 14px;
+  padding: 80px 150px 0 70px;
+}
+
+.headings{
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.positionWork{
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.MyName{
+  font-size: 45px;
+  color: #000000;
+
+}
+
+.work-header{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.work-header  span{
+  color: #FB6D3A;
+}
+
+.work-items{
+  width: 550px;
+}
+
+.work-term{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+}
+
+.project-items::marker{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.project-items a{
+  margin-left: 13px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+
+  color: #595959;  
+}
+
+.project-items span{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+
+.list{
+  padding: 0;
+  margin-left: 17px;
+}
+
+/* // */
+.education-heading{
+  margin-bottom: 11px;
+}
+
+.education-college{
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #FB6D3A;
+}
+
+.education-specialty{
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.education-term{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #A8A8A8;
+}
+
