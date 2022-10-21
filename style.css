@@ -27,8 +27,10 @@ body{
 
 /* Sidebar Code ///////////////*/
 .sidebar{
-  background-color: #1E2939;
+  /* background-color: #1E2939; */
+  background-color: #1D3FE1;
   color: #FFFFFF;
+  /* color: #000000; */
 }
 
 .container{
@@ -37,7 +39,8 @@ body{
 
 .photo{
   margin-top: 40px;
-  width: 370px
+  width: 370px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .contacts-wrapper{
   display: flex;
@@ -69,6 +72,7 @@ body{
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
+  /* color: #000000; */
   opacity: 0.5;
 }
 /* Sidebar Code ///////////////*/
