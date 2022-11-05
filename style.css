@@ -1,22 +1,35 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
+.bg-block{
+  background-color: #36516C;
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 90px;
+  padding-right: 35px;
+  color: white;
+}
 
+html, body {
+  height: 100%;
+}
 
 body{
-  margin-top: 40px;
-  margin-bottom: 40px;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0 auto;
   box-sizing: border-box;
-  background: #E5E5E5;
+  /* background: #E5E5E5; */
 
 }
 
 .main{
+  height: 100%;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 0;
+  justify-content: center;
   font-family: Montserrat, sans-serif;
   background: #FFFFFF;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -25,12 +38,9 @@ body{
 
 
 
-/* Sidebar Code ///////////////*/
 .sidebar{
-  /* background-color: #1E2939; */
-  background-color: #1D3FE1;
+  background-color: #36516C;
   color: #FFFFFF;
-  /* color: #000000; */
 }
 
 .container{
@@ -38,14 +48,15 @@ body{
 }
 
 .photo{
-  margin-top: 40px;
   width: 370px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
 .contacts-wrapper{
   display: flex;
   align-items: center;
 }
+
 .container-contacts{
   margin-top: 50px;
 }
@@ -58,9 +69,15 @@ body{
   line-height: 24px;
   list-style: none;
   padding: 0;
+  list-style-position: inside;
+  -moz-column-count: 2; 
+  -webkit-column-count: 2; 
+  column-count: 2;
+  
 }
 .skills-list li::before {
   width: 6px;
+  font-size: 24px;
   content: "\2022";
   color: #FB6D3A;
   display: inline-block;
@@ -72,15 +89,19 @@ body{
   font-size: 14px;
   line-height: 24px;
   color: #FFFFFF;
-  /* color: #000000; */
   opacity: 0.5;
 }
-/* Sidebar Code ///////////////*/
+
+
+
+.wrapper-right-container{
+}
 
 .right-container{
   color: #595959;
   font-size: 14px;
-  padding: 80px 150px 0 70px;
+  padding: 10px 85px 0 50px;
+  
 }
 
 .headings{
@@ -90,15 +111,12 @@ body{
 }
 
 .positionWork{
-  font-size: 14px;
+  font-size: 15px;
   line-height: 17px;
-  color: #000000;
 }
 
 .MyName{
   font-size: 45px;
-  color: #000000;
-
 }
 
 .work-header{
@@ -114,7 +132,7 @@ body{
 }
 
 .work-items{
-  width: 550px;
+  margin-bottom: 8px;
 }
 
 .work-term{
@@ -161,7 +179,12 @@ body{
   margin-bottom: 11px;
 }
 
-.education-college{
+.education-element-wrapper{
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(165, 156, 156);
+}
+
+.education-institution{
   margin-bottom: 11px;
   font-weight: 700;
   font-size: 16px;
@@ -169,6 +192,8 @@ body{
 
   color: #FB6D3A;
 }
+
+
 
 .education-specialty{
   margin-bottom: 11px;
@@ -183,7 +208,7 @@ body{
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-
+  margin-bottom: 8px;
   color: #A8A8A8;
 }
 
