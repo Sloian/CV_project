@@ -93,6 +93,10 @@ body{
 }
 
 
+.information-container p {
+ width: max-content;
+}
+
 
 .wrapper-right-container{
 }
@@ -148,6 +152,10 @@ body{
   line-height: 24px;
 
   color: #000000;
+}
+
+.projext-items {
+  width: max-content;
 }
 
 .project-items a{
